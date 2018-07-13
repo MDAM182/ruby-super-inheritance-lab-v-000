@@ -8,7 +8,7 @@ class ChattyStudent < Student
 
   def raise_hand
     super
-    @hello
+    @hello * 10 
   end
  end
 end
