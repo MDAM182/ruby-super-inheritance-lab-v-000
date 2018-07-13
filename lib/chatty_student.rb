@@ -10,5 +10,5 @@ class ChattyStudent < Student
   10.times do
     @hello
   end
-end
+ end
 end
