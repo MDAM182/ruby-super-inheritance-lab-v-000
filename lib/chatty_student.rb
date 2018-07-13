@@ -8,7 +8,11 @@ class ChattyStudent < Student
 
   def raise_hand
     super
-    10.times do |hello|
-    end
+    i = 0
+  loop do
+  i+= 1
+  print "Ruby!"
+  break if i >=30
+  end
  end
 end
