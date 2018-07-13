@@ -11,7 +11,7 @@ class ChattyStudent < Student
     i = 0
   loop do
   i+= 1
-  print "Ruby!"
+  puts @hello
   break if i >=30
   end
  end
