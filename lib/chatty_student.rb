@@ -1,0 +1,1 @@
+require "./chatty_student.rb"
