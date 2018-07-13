@@ -12,7 +12,7 @@ class ChattyStudent < Student
   loop do
   i+= 1
   puts @hello
-  break if i >=30
+  break if i >=10
   end
  end
 end
