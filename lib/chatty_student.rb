@@ -8,11 +8,7 @@ class ChattyStudent < Student
 
   def raise_hand
     super
-    i = 0
-  loop do
-  i+= 1
-  puts @hello
-  break if i >=10
+10.times{@hello}
   end
  end
 end
