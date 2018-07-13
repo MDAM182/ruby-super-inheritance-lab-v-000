@@ -7,6 +7,6 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    @hello.times(10)
+    @hello * 10
   end
 end
