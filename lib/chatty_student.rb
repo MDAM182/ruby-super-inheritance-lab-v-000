@@ -9,7 +9,7 @@ class ChattyStudent < Student
   def raise_hand
     super
   puts 10.times do
-   @hello
+   puts @hello
   end
  end
 end
